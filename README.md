@@ -1,4 +1,4 @@
-# Online Resume: Franco Bizzzotto
+# Online Resume: Franco Bizzotto
 
 One-Page-Website as CV/Resume
 
