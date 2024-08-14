@@ -1,0 +1,192 @@
+:root {
+    --bg-th-light-high: #d8d7d7;
+    --bg-th-light: #e9e9e9;
+    --textth-light: #000000;
+    --highligh-color: #286a78;
+}
+
+html {
+    /* position: relative; */
+    /* min-height: 100%; */
+    background-color: var(--bg-th-light);
+}
+
+header {
+    background-color: var(--bg-th-light-high);
+    padding-top: 5em;
+    padding-bottom: 5em;
+    text-align: center;
+}
+
+/* main {
+    margin-bottom: 400px;
+} */
+
+.profile-pic {
+    width: 15%;
+    min-width: 100px;
+    min-height: 100px;
+    border-style: solid; 
+    border-width: 2pt; 
+    border-color: gray;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1/1;
+}
+
+header .btn {
+    font-size: 20pt;    
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, .125);
+}
+
+#open_to_work {
+    background-color: #21cf70;
+    color: white;
+    text-align: center;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+#description_text {
+    max-width: 45em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#open_to_work h6 {
+    margin-bottom: 0;
+}
+
+main {
+    background-color: var(--bg-th-light);
+}
+
+section {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    break-before: page;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+section .card {
+    height: 100%;
+}
+
+section .row-cols-lg-1 {
+    max-width: 50%;
+}
+
+.card .rounded-pill {
+    border-style: solid;
+    border-width: 1px;
+    color: var(--textth-light);
+}
+
+.card .btn:hover {
+    color: gray;
+}
+
+.section-body .col {
+    margin-bottom: 1.5em;
+}
+
+.card p {
+    margin-bottom: 0.5em;
+}
+
+.info {
+    font-size: medium;
+}
+
+.info:hover {
+    color: rgba(0, 0, 0, .5);
+}
+
+.certification .card-body, .certification li {
+    text-align: center;
+}
+
+.certification .card-body {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#languages .list-group-item {
+    text-align: center;
+}
+
+.additional_course .col {
+    margin-bottom: 0;
+}
+
+#codes h6 {
+    margin-bottom: 0;
+}
+
+#skills .card-body {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#skills .card-body h6 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0;
+}
+
+#skills .card-body .progress {
+    height: 4px;
+    border-radius: 0;
+    margin-bottom: 1rem;
+}
+
+#publications .publication .col{
+    margin-bottom: 0.5em;
+}
+
+#publications .publication p{
+    margin-bottom: 0;
+}
+
+footer {
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    background-color: var(--bg-th-light-high);
+    min-height: 5em;
+    padding-top: 2em;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--textth-light);
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer .btn:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.footer h5 {
+    margin-bottom: 1em;
+}
+
+.footer .col {
+    margin-bottom: 2em;
+}
+
+.footer .list-icon {
+    min-width: 22px;
+}
